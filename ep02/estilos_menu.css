@@ -1,0 +1,169 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#F2A649;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #DB592A;
+    border-bottom: 1px solid #ddd;
+}
+
+header img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+main{
+    display: flex;
+    padding: 10px;
+}
+
+hr{
+    border: #014034 2px solid;
+}
+
+.logo {
+    width: 50px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+nav button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: 1px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+nav a, button{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+}
+
+nav button.login {
+    background-color: #333;
+    color: #fff;
+}
+
+nav button.register {
+    color: #333;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #A65729;
+    border-radius: 2%;
+    min-height: 100vh;
+}
+
+ h1, h2 {
+    font-family: "Protest Strike", sans-serif;
+    font-style: normal;
+  }
+
+  p {
+    font-family: "Protest Strike", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+  }
+
+  .sidebar h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #401303;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    color: black;
+    font-family: "Protest Strike", sans-serif;
+    font-style: normal;
+}
+
+.menu-content {
+    width: 80%;
+    padding: 20px;
+}
+
+.menu-content h1, 
+.menu-content h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.beverages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+
+.beverage {
+    text-align: center;
+}
+
+.beverage img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #0D0D0D;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social span {
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+}
