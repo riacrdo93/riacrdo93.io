@@ -111,6 +111,10 @@ body {
       cursor: pointer;
       font-size: 16px;
     }
+
+    .botones{
+      text-align: center;    
+  }
   
     .contact-form button:hover {
       background-color: #555;
